@@ -15,7 +15,7 @@ while True:
         qnum = int(input())
         break
     except ValueError:
-        print('Tuo ei ollut kokonaisluku')
+        print('Tuo ei ollut kokonaisluku kokonaan')
 
 while(qnum != 1):
     qnum = collatz(qnum)
