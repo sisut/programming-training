@@ -1,0 +1,69 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px;
+  border-color: black;
+  padding-bottom: 25px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+ 
+}
+
+.navbar-brand h1 { /* name */
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+
+#nav-list {
+  background-color: maroon;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/** body **/
+
+.heading2 {
+  margin-top: 150px;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.col-xs-12 {
+  height: 1000px;
+  background-color: gray;
+}
+
+.jumbotron {
+  height: 1000px;
+  background-color: gray;
+
+}
+
+@media (min-width: 768px) {
+.heading2 {
+  margin-top: 90px;
+}
